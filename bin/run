@@ -4,4 +4,9 @@ require 'pry'
 require_relative '../config/environment'
 
 binding.pry
+# binding.pry
 "pls"
+
+gold_digger=Song.new(name: "My Love Someday",album:"Late Registration")
+
+gold_digger.save
